@@ -120,3 +120,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .padding-container {
+    @apply px-4 py-8 mx-auto;
+  }
+
+  /*Flex Region*/
+  .flex-items-center-between {
+    @apply flex items-center justify-between;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  /*End of Flex Region*/
+}
